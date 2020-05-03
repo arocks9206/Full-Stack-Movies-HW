@@ -1,7 +1,7 @@
-use movie_hub;
+use film_hub;
 db.dropDatabase();
 
-db.movies.insertMany([
+db.films.insertMany([
   {
     title: "Moonrise Kingdom",
     genre: "Comedy/Drama",
